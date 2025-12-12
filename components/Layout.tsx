@@ -2,6 +2,7 @@ import React, { ReactNode, useEffect, useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 interface LayoutProps {
   children: ReactNode;
@@ -222,6 +223,7 @@ const Layout: React.FC<LayoutProps> = ({
           </div>
         </div>
       </footer>
+      <SpeedInsights />
     </div>
   );
 };
