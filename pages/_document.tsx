@@ -6,11 +6,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5562148075211441"
-          crossOrigin="anonymous"
-        />
+        <meta name="google-adsense-account" content="ca-pub-5562148075211441" />
         {GA_MEASUREMENT_ID && (
           <>
             <script
