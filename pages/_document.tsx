@@ -6,6 +6,10 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <meta
+          name="google-site-verification"
+          content="ReRjWji5YLH9AD5NAhmcu3w-AvHD4LUavvUyQsQ481k"
+        />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5562148075211441"
