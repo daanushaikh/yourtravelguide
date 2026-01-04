@@ -64,6 +64,7 @@ const Layout: React.FC<LayoutProps> = ({
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="robots" content="index, follow" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="alternate icon" href="/favicon.ico" />
       </Head>
